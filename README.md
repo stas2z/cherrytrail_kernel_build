@@ -8,14 +8,14 @@ How to build:
 
 2. Clone Cherry Trail kernel build environment and fetch kernel source as submodule:
 
-        git clone https://github.com/CM-CHT/cherrytrail_kernel_build.git -b cm-13.0
+        git clone https://github.com/stas2z/cherrytrail_kernel_build.git -b cm-13.0
         cd cherrytrail_kernel_build
         git submodule update --init
 
 3. Create output directory and copy defconfig:
 
         mkdir out
-        cp linux/arch/x86/configs/x86_64_chuwi_vi10plus_defconfig out/.config
+        cp linux/arch/x86/configs/x86_64_chuwi_hi8pro_defconfig out/.config
 
 4. Compile:
 

@@ -1,4 +1,4 @@
 [submodule "linux"]
 	path = linux
-	url = https://github.com/stas2z/android_kernel_intel_cherrytrail.git
+	url = https://github.com/stas2z/android_kernel_intel_cherrytrail
 	branch = cm-13.0
